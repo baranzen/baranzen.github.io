@@ -23,35 +23,43 @@ const Home: NextPage = () => {
         </div>
         <br />
         <h1 className={styles.title}>Baran Zengeralp</h1>
-
-        <div className={styles.text}>
-          Mobile Developer | Flutter{/*  <MdFlutterDash style={{ fontSize: '45px', marginLeft: '3px', marginRight: '3px' }} />  */} | Swift {/* <SiSwift style={{ fontSize: '35px', marginLeft: '5px', marginRight: '5px' }} /> */} | evdeyap.net
-        </div>
         <br />
+        <div className={styles.description} style={{ fontSize: '1.2rem' }}>
+          Mobile Developer | Flutter{/*  <MdFlutterDash style={{ fontSize: '45px', marginLeft: '3px', marginRight: '3px' }} />  */} | Swift {/* <SiSwift style={{ fontSize: '35px', marginLeft: '5px', marginRight: '5px' }} /> */} | <Link href={'https://evdeyap.net/'}>edeyap.net</Link>
+        </div>
+
         {/*     <div style={{ border: '1px solid  #222', padding: '12px', borderRadius: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <span className={styles.description} style={{fontSize:'1.2rem'}} >email me</span>
           <MdMail style={{ fontSize: '50' }} />
         </div> */}
         <div className={styles.social}>
-          <a>
-            <FaGithub />
-          </a>
-          <a>
-            <MdMail />
-          </a>
-          <a>
-            <FaLinkedin />
-          </a>
-          <a>
-            <FaDiscord />
-          </a>
-
-          <a>
-            <FaTwitter />
+          <Link href={'https://github.com/baranzen'} >
+            <a target='_blank'>
+              <FaGithub size={50} />
+            </a>
+          </Link>
+          <Link href={'mailto:info@baranben.com'}>
+            <a target='_blank'>
+              <MdMail size={50} />
+            </a>
+          </Link>
+          <Link href={'https://www.linkedin.com/in/baranzengeralp/'}>
+            <a target='_blank'>
+              <FaLinkedin size={50} />
+            </a>
+          </Link>
+          <Link href={'https://discordapp.com/users/334816329259548676'}>
+            <a target='_blank'>
+              <FaDiscord size={50} />
+            </a>
+          </Link>
+          <a target='_blank'>
+            <FaTwitter size={50} />
           </a>
 
         </div>
-        <br />
+
+        <p><code style={{ fontSize: '24px' }} className={styles.code}>info@baranben.com</code> </p>
         <p className={styles.description}>
           Hi there, <code className={styles.code}>Baran</code> is Here!   <FaHandSpock />
 
@@ -69,29 +77,6 @@ const Home: NextPage = () => {
               <p>Flutter Wallpaper App allows to you set your dream wallpaper.</p>
             </a>
           </Link>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 

@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div style={{ textAlign: 'center' }}>
-          <img className={styles.baran} src="/baran_zengeralp.png" alt="baran" />
+          <img className={styles.baran} src="/baran_zengeralp.png" alt="baran zengeralp" />
         </div>
         <br />
         <h1 className={styles.title}>Baran Zengeralp</h1>

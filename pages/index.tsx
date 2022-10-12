@@ -52,10 +52,12 @@ const Home: NextPage = () => {
             <a target='_blank'>
               <FaDiscord size={50} />
             </a>
+          </Link >
+          <Link href={'https://twitter.com/dev_baran'}>
+            <a target='_blank'>
+              <FaTwitter size={50} />
+            </a>
           </Link>
-          <a target='_blank'>
-            <FaTwitter size={50} />
-          </a>
 
         </div>
 
@@ -87,7 +89,6 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span> */}
         Baran Zengeralp
-
       </footer>
     </div>
   );

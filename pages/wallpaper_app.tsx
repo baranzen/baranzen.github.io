@@ -45,14 +45,6 @@ const WallpaperApp: NextPage = () => {
                     </div>
                 </p>
 
-                <div style={{ width: '100%', height: '100%', position: 'relative' }}>
-                    <Image
-                        src={"/wallpaper_app/flutter_01.png"}
-                        alt="wallpaper app"
-                        layout="fill"
-                        objectFit="contain"
-                    />
-                </div>
             </main>
         </div>
     );

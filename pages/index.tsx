@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Baran Zengeralp</h1>
         <br />
         <div className={styles.description} style={{ fontSize: '1.2rem' }}>
-          Mobile Developer | Flutter{/*  <MdFlutterDash style={{ fontSize: '45px', marginLeft: '3px', marginRight: '3px' }} />  */} | Swift {/* <SiSwift style={{ fontSize: '35px', marginLeft: '5px', marginRight: '5px' }} /> */} | <Link href={'https://evdeyap.net/'}>edeyap.net</Link>
+          Mobile Developer | Flutter{/*  <MdFlutterDash style={{ fontSize: '45px', marginLeft: '3px', marginRight: '3px' }} />  */} | Swift {/* <SiSwift style={{ fontSize: '35px', marginLeft: '5px', marginRight: '5px' }} /> */} | <Link href={'https://evdeyap.net/'}>evdeyap.net</Link>
         </div>
 
         {/*     <div style={{ border: '1px solid  #222', padding: '12px', borderRadius: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
